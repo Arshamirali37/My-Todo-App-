@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .inputField{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 style="font-size: 40px;font-family: Arial, Helvetica, sans-serif;text-align: center;">Todo App</h1>
+    </div>
+
+
+    <div class="inputField">
+        <input s class="INPUT" type="text" placeholder="What are your tasks for today?" id="todoInput">
+        <button onclick="addTodo()" class="button">+</button>
+        <button onclick="deleteAllTodos()" class="button">Delete All Items..</button>
+
+    </div>
+
+    <ul id="list"></ul>
+
+    <script src="App.js"></script>
+
+</body>
+</html>
